@@ -4,7 +4,7 @@
 	import Board from './board.svelte';
 	const test = new BingoGenerator(200, playlist);
 
-	export let boards = test.bingoBoards;
+	let { boards = test.bingoBoards } = $props();
 </script>
 
 <svelte:head>

@@ -5,7 +5,11 @@
 
 	import background from './artic-marley.png';
 
-	export let bingoItem: MusicBingoItem;
+	interface Props {
+		bingoItem: MusicBingoItem;
+	}
+
+	let { bingoItem }: Props = $props();
 </script>
 
 <div>
