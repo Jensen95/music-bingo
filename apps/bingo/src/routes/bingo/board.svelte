@@ -1,7 +1,7 @@
 <svelte:options immutable />
 
 <script lang="ts">
-	import type { MusicBingoItem } from '$lib/bingoGenerator';
+	import type { MusicBingoItem } from '@jensen95/bingo-generator';
 
 	import background from './artic-marley.png';
 
