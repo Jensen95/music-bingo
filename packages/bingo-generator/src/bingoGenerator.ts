@@ -1,6 +1,6 @@
 
 
-import { calculatePossibleCombinations } from '@repo/calculate-possible-combinations';
+import { calculatePossibleCombinations } from '@jensen95/calculate-possible-combinations';
 
 interface Song {
 	song: string;

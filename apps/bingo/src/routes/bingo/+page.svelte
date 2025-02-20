@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { BingoGenerator } from '$lib/bingoGenerator';
+	import { BingoGenerator } from '@jensen95/bingo-generator';
 	import playlist from './playlist.json';
 	import Board from './board.svelte';
 	const test = new BingoGenerator(200, playlist);
@@ -21,7 +21,7 @@
 				.cla {
 					// background-color: hotpink;
 					display: grid;
-					grid-auto-rows: min-content;
+					grid-auto-rowboardss: min-content;
 				}
 
 				.content {

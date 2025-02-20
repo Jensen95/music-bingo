@@ -1,1 +1,1 @@
-export { factorial } from './factorial';
+export { factorial } from './factorial.js';

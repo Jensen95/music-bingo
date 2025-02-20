@@ -1,13 +1,14 @@
 {
-	"name": "@repo/generate-hash",
+	"name": "@jensen95/generate-hash",
 	"version": "0.0.0",
 	"type": "module",
-	"module": "index.ts",
-	"main": "index.ts",
+	"private": true,
+	"module": "./src/index.ts",
+	"main": "./src/index.ts",
 	"exports": {
 		".": {
-			"types": "./index.ts",
-			"svelte": "./index.ts"
+			"types": "./src/index.ts",
+			"svelte": "./src/index.ts"
 		}
 	},
 	"scripts": {

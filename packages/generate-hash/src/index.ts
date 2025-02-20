@@ -1,1 +1,1 @@
-export { generateHash } from './generateHash';
+export { generateHash } from './generateHash.js';

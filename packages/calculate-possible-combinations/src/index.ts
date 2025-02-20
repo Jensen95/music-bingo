@@ -1,1 +1,1 @@
-export { calculatePossibleCombinations } from './calculatePossibleCombinations';
+export { calculatePossibleCombinations } from './calculatePossibleCombinations.js';
